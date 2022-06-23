@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\repos\\Examples\\Ex001\\Ex001.csproj",
+      "projectUniqueName": "D:\\Repozit\\qwerty\\Ex001\\Ex001.csproj",
       "projectName": "Ex001",
-      "projectPath": "Z:\\repos\\Examples\\Ex001\\Ex001.csproj",
+      "projectPath": "D:\\Repozit\\qwerty\\Ex001\\Ex001.csproj",
       "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-      "outputPath": "Z:\\repos\\Examples\\Ex001\\obj\\",
+      "outputPath": "D:\\Repozit\\qwerty\\Ex001\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config"
