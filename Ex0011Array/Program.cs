@@ -22,6 +22,11 @@ void PrintArray(int[] col)
     }
 }
 
+//int [] array = new int[10];
+//FillArray(array);
+//PrintArray(array);
+
+
 int indexOf(int[] colltction, int find)
 {
     int count = colltction.Length;
@@ -47,5 +52,5 @@ array[6] =4;
 PrintArray(array);
 System.Console.WriteLine();
 
-int pos = indexOf(array, 44);
+int pos = indexOf(array, 4);
 System.Console.WriteLine(pos);
