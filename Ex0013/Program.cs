@@ -1,5 +1,6 @@
 ﻿//Закрасим картинку
 /*
+
 int[,] pic = new int[,]
 {
  {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
@@ -28,7 +29,7 @@ int[,] pic = new int[,]
 };
 void PrintImage(int[,] image)
 {
-    for (int i = 0; i < image.GetLength(0); i++)     //GetLength количество строк
+    for (int i = 0; i < image.GetLength(0); i++) //GetLength количество строк
     {
         for (int j = 0; j < image.GetLength(1); j++)
         {
@@ -57,7 +58,7 @@ PrintImage(pic);
 FillImage(13, 13);
 PrintImage(pic);
 */
-
+/*
 double Factotrial(int n)
 {
     if (n == 1) return 1;
@@ -67,11 +68,12 @@ for (int i = 1; i < 40; i++)
 {
     Console.WriteLine($"{i}! = {Factotrial(i)}");
 }
-
+*/
 
 // f(1) = 1
-// f 2) = 2
+// f(2) = 1
 // f(n) = f(n-1) + f(n-2)
+
 
 double Fibonacci(int n)
 {
@@ -79,7 +81,7 @@ double Fibonacci(int n)
     else return Fibonacci(n-1) + Fibonacci(n-2);
 }
 
-for(int i = 1; i < 50; i++)
+for(int i = 1; i < 47; i++)
 {
     Console.WriteLine($"f({i}) = {Fibonacci(i)}");
 }
