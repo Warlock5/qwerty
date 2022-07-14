@@ -15,7 +15,7 @@ for (int rows = 0; rows < 2; rows++)
         System.Console.WriteLine($"-{table[rows, colums]}-");
     }
 }
-*/
+*/ 
 
 
 void PrintArray(int[,] matr)
